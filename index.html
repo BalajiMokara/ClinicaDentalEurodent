@@ -17,13 +17,39 @@
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+  <head>
+ <style>
+   .banner {
+  width: 100%;
+  background: #ADD8E6;
+  color: black;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.banner p {
+  display: inline-block;
+  padding-left: 100%;
+  animation: scrollText 20s linear infinite;
+}
+
+@keyframes scrollText {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+ </style>
 </head>
 
 <body>
 
   <header>
     <div class="logo">
-      <img src="imagenes/log1.png" alt="Agate Dental Clinic" height="150" width="200">
+      <img src="imagenes/agatelogo2b.png" alt="Agate Dental Clinic" height="150" width="200">
     </div> <br>
   <br>
   <br>
@@ -41,8 +67,13 @@
     </ul>
   </nav>
 
+
+
   <!-- SECCIÓN PRINCIPAL -->
   <div class="container">
+  
+  <div class ="banner"><p> <b> Call us 📞 +91 8143523340 | Follow us on 📘 Facebook: @bndfg | Follow us on 📸 Instagram: @fdgfdg </b></p></div>
+  
     <div class="row">
       <div class="col-sm">
         <h3 class="titulo">Why Choose us?</h3>
@@ -60,12 +91,12 @@
     </div>
   </div>
 
-  <!-- PROTOCOLO COVID -->
+  <!--
   <section class="protocolocovid text-center mt-4">
     <img src="imagenes/protocolocovid.png" class="img-fluid" alt="Protocolo COVID">
   </section>
 
-  <!-- CAROUSEL -->
+   -->
   <section class="mt-4">
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       
@@ -102,12 +133,13 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-sm"><img src="imagenes/odontologiageneral.jpg" class="img-fluid" alt="Odontología General"></div>
+        <div class="col-sm"><img src="imagenes/generaldent.jpeg" class="img-fluid" alt="General Dentistry"></div>
         <div class="col-sm"><img src="imagenes/ortodoncia.jpg" class="img-fluid" alt="Ortodoncia"></div>
         <div class="col-sm"><img src="imagenes/implantologia (3).jpg" class="img-fluid" alt="Implantología"></div>
         <div class="col-sm"><img src="imagenes/blanqueamientodental (2).jpg" class="img-fluid" alt="Blanqueamiento"></div>
         <div class="col-sm"><img src="imagenes/odontopediatria (2).jpg" class="img-fluid" alt="Odontopediatría"></div>
         <div class="col-sm"><img src="imagenes/cirugiabucal (2).png" class="img-fluid" alt="Cirugía Bucal"></div>
+		<div class="col-sm"><img src="imagenes/cirugiabucal (2).png" class="img-fluid" alt="Cirugía Bucal"></div>
       </div>
     </div>
   </section>
@@ -115,12 +147,13 @@
   
       <section>
       <div class="servicios-listcontainer">
-      p class="font">General Dentistry</p>
+      <p class="font">General Dentistry</p>
+	  <p class="font">Oral Surgery</p>
+	  <p class="font">Implants</p>
       <p class="font" >Orthodontics</p>
-      <p class="font">Implantologia</p>
       <p class="font">Teeth Whitening</p>
       <p class="font">Pediatric Dentistry</p>
-      <p class="font">Dental Surgery</p>
+	  <p class="font">Root Canal Treatment</p>
     </div></section>
 
   <!-- PROMOCIONES -->
